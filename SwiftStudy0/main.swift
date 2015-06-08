@@ -108,6 +108,13 @@ value = numberStr.toInt()
 //}
 println("value = \(value)")
 
+var optionalName : String?
+var greeting = "Hello!"
+if let name = optionalName {
+    greeting = "Hello, \(name)"
+}
+println("greeting = \(greeting)")
+
 
 
 
